@@ -1,12 +1,11 @@
 import express from 'express';
+import routes from './routes';
 
 const app = express();
 
 app.use(express.json()); /*é necessário para o express entender json*/
+app.use(routes);
 
-app.get('/', (request, response) => {
-   return response.json({message: "Hello"})
-})
 
 
 console.log("Server is Running http://localhost:3333")
