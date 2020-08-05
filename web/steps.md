@@ -5,6 +5,7 @@
 1. yarn create react-app web --template typescript (Instalar os pacotes typescript para o desenvolvimento react)
 2. yarn add react-router-dom (Para fazer navegação de rotas nas suas aplicações react)
 3. yarn add @types/react-router-dom -D (Alguns pacotes não são identificados automaticamente e por tanto devemos instalar eles como dependência de desenvolvimento)
+4. yarn add axios (para consumir api através das requisições)
 
 ## Passos de criação
    1. Criar projeto na pasta desejada e limpar os arquivos que não serão utilizados na nossa aplicação
