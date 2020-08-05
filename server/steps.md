@@ -8,7 +8,8 @@
    4. yarn add ts-node-dev -D (observa cao o código seja alterado, como se fosse o nodemon)
    5. yarn add express & yarn add @types/express -D (quando não achar o pacote, instale o mesmo conforme o vscode pedir)
    6. yarn add knex sqlite3 (query builder e banco de dados lite)
-   7. 
+   7. yarn add cors & yarn add @types/cors -D (permite conexões diferentes entre serviços, font-end e back-end)
+   
 
 ## Passos de criação
    1. instale as dependências e faça as alterações
@@ -17,7 +18,8 @@
    4. terminar configurações de conexão
    5. montar as configurações do banco
    6. montar suas migrations e montar os scripts personalizados e as config do kenxfile
-   7. 
+   7. rodar migration
+   8. montar Controllers tendo já feito um esboço das funcionalidades
    
 
 
