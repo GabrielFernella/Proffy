@@ -5,6 +5,8 @@
 4. expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view (Pacotes para expo)
 5. yarn add @react-navigation/stack (navegação em pilha, existem outros tipos de navegações )
 6. yarn add @react-navigation/bottom-tabs 
+7. yarn add axios
+8. expo install @react-native-community/async-storage (banco de dados local do dispositivo)
 
 
 
